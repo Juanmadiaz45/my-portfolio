@@ -11,7 +11,7 @@ export const portfolioData = {
     linkedin: "https://www.linkedin.com/in/juan-manuel-diaz-moreno",
     cvPath: "/path/to/your/cv.pdf"
   },
-  about: "As a final-year Systems and Telematics Engineering student, I specialize in bridging software development and IT operations through automation and cloud-native solutions. With a dual-degree background, I combine software architecture expertise with network infrastructure skills to design scalable and fault-tolerant systems. Passionate about CI/CD, containerization, and cloud platforms, I’m eager to build and optimize infrastructures that empower high-performance applications.",
+  about: "As a final-year Software and Telematics Engineering student, I specialize in bridging software development and IT operations through automation and cloud-native solutions. With a dual-degree background, I combine software architecture expertise with network infrastructure skills to design scalable and fault-tolerant systems. Passionate about CI/CD, containerization, and cloud platforms, I’m eager to learn, build and optimize infrastructures that empower high-performance applications.",
   skills: {
     devops: {
       id: 'devops',
@@ -43,9 +43,9 @@ export const portfolioData = {
       "Python", "Java", "Node.js", "Bash", 
       "Spring Boot", "Spring Framework", "Django", 
       // "Express.js", 
-      "NestJS",
+      // "NestJS",
       // Frontend
-      "HTML/CSS", "JavaScript", "TypeScript", "React", //"Next.js", 
+      "HTML/CSS", "JavaScript", "TypeScript (Learning)", "React", //"Next.js", 
       "Tailwind CSS",
       // Databases
       "PostgreSQL", "MySQL", "MongoDB", // "Redis", 
@@ -60,7 +60,7 @@ export const portfolioData = {
       title: "Azure DevOps & IaC for Microservices",
       description: "An end-to-end project to deploy and manage a resilient microservices architecture on Azure, featuring a full CI/CD pipeline, infrastructure provisioned with Terraform, and configuration managed by Ansible.",
       tags: ["Azure", "Terraform", "Ansible", "Docker", "Jenkins", "CI/CD"],
-      imageUrl: "https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=1950&auto=format&fit=crop",
+      imageUrl: "/azure.png",
       link: "https://github.com/Juanmadiaz45/microservices-deployment"
     },
     {
@@ -74,8 +74,22 @@ export const portfolioData = {
       title: "HabitFlow - Habit Tracking Mobile App",
       description: "Developed an Android application in Kotlin to help users build and maintain habits through gamification and social engagement. Implemented habit creation, editing, and deletion, daily streak tracking, personal and global statistics, and a community articles section. The app follows MVVM and Clean Architecture principles, integrates Supabase for real-time data, and uses a containerized Directus backend with Docker.",
       tags: ["Kotlin", "Clean Architecture", "Supabase", "Directus", "Docker", "Retrofit", "Hilt"],
-      imageUrl: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1974&auto=format&fit=crop",
+      imageUrl: "/habitflow.png",
       link: "https://github.com/HabitFlowTeam/habitflow-app"
     },
+    {
+      title: "OncoLogic Clinic Management - Backend",
+      description: "Developed the backend service for an oncology clinic management platform using Java 23 and Spring Boot. The API supports patient record management, appointment scheduling, laboratory integration, and secure role-based access control. Includes PostgreSQL integration, Dockerized environments for development and testing, and unit testing with JUnit and JaCoCo.",
+      tags: ["Java", "Spring Boot", "PostgreSQL", "Docker", "JUnit", "JaCoCo", "Spring Security"],
+      imageUrl: "backend.png",
+      link: "https://github.com/Juanmadiaz45/oncologic-clinic-backend"
+    },
+    {
+      title: "OncoLogic Clinic Management - Frontend",
+      description: "Implemented the frontend of an oncology clinic management platform using React and TypeScript. Features include patient and staff dashboards, appointment scheduling, laboratory result visualization, and authentication with role-based access. Integrated the backend API and optimized UI responsiveness.",
+      tags: ["React", "TypeScript", "Vite", "Docker", "Axios", "React Router"],
+      imageUrl: "frontend.png",
+      link: "https://github.com/Juanmadiaz45/oncologic-clinic-frontend"
+    }
   ]
 };

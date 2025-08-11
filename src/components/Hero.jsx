@@ -30,7 +30,7 @@ const Hero = () => (
           variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0, transition: { duration: 0.8, delay: 0.4 } } }}
           className="text-4xl md:text-5xl lg:text-6xl font-black text-slate-400 tracking-tight mb-8"
         >
-          DevOps & Cloud Engineer
+          DevOps & Software Engineer
         </motion.h2>
         <motion.div 
           variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0, transition: { duration: 0.8, delay: 0.6 } } }}

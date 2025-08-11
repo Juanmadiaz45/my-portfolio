@@ -1,8 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowUpRight } from 'lucide-react';
-import { portfolioData } from '../data';
+import { ArrowUpRight, Github } from 'lucide-react';
 import Section from './Section';
+import { portfolioData } from '../data';
 
 const Projects = () => (
     <div className="bg-slate-900 text-white border-t border-b border-slate-800">
@@ -36,6 +36,20 @@ const Projects = () => (
                     </motion.div>
                 ))}
             </div>
+
+            <div className="text-center mt-16">
+                <motion.a
+                    href={portfolioData.contact.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    whileHover={{ scale: 1.05, y: -5 }}
+                    whileTap={{ scale: 0.95 }}
+                    className="inline-flex items-center bg-transparent border-2 border-slate-700 text-slate-300 font-bold py-3 px-6 rounded-lg hover:bg-slate-800 hover:border-slate-600 transition-all duration-300"
+                >
+                    <Github size={20} className="mr-2" />
+                    View More Projects on GitHub
+                </motion.a>
+            </div>            
         </Section>
     </div>
 );
